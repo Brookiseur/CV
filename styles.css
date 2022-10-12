@@ -1,0 +1,298 @@
+/* --------------------------------- GENERAL  ---------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    size: A4; 
+}
+
+@font-face {
+    font-family: "Fjord";
+    src : url("font/FjordOne-Regular.ttf") format("truetype");
+}
+
+@font-face  {
+    font-family: "Dynalight";
+    src : url("font/Dynalight-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Carme";
+    src : url("font/Carme-Regular.ttf") format("truetype");
+}
+
+
+body {
+    color: #115D8A;
+    font-family: "Carme";
+    font-size: 13px;
+}
+
+.feuille {
+    width: 595px;
+    height: 842px;
+    border:2px solid #115D8A;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+.gauche li {
+    margin: 20px 0px;
+}
+
+.gauche {
+    width : 208px; 
+    height: 100%;
+}
+
+.droite {
+    width : 387;
+    height: 100%;
+}
+
+
+
+
+/* --------------------------------- CONTACT ---------------------------------- */
+
+.contact {
+    height: 165px;
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin : 0 0 0 10px;
+}
+
+.info {
+    display: flex;
+}
+
+.texte {
+    margin: 0 5px;
+    font-size: 0.8rem;
+}
+
+.contact img {
+    width: 15px;
+    height: 15px;
+}
+/* --------------------------------- SAVOIR FAIRE ---------------------------------- */
+.savoirFaire {
+    height: 677px;
+    width: 208px;
+    background-color: #CFC5B6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.html{
+    color : rgb(43, 182, 89);
+}
+.github{
+    color :  rgb(43, 182, 89);
+}
+.symfony{
+    color : red;
+}
+.javascript{
+    color : red;
+}
+.reactjs{
+    color : red;
+}
+.css{
+    color :  rgb(43, 182, 89);
+}
+.php{
+    color :  rgb(43, 182, 89);
+}
+.wordpress{
+    color : red;
+}
+.nodejs{
+    color : red;
+}
+.reactnativ{
+    color : red;
+}
+
+
+
+
+
+.listesTechno {
+    display: flex;
+    justify-content: space-around;
+}
+/* --------------------------------- PRESENTATION ---------------------------------- */
+
+
+.presentation {
+    height: 165px;
+    width: 387px;
+    background-color: #CFC5B6;
+    text-align: center;
+}
+
+.photoPresentation img {
+    height: 140px;
+    position: absolute;
+    left: 210px;
+    top: 27px;
+}
+
+.presentation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textPresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 10px 0px 0px;
+}
+
+.nomPrenom {
+    font-family: "Fjord";
+    font-size: 36px;
+    color: black;
+}
+
+.poste{
+    font-family: "Dynalight";
+}
+
+.nomPoste{
+    font-size: 32px;
+    margin: 0px 0px 10px 0px;
+}
+
+.datePoste{
+    font-size: 20px;
+}
+/*------------------------------------ TITRE ---------------------------------------*/
+
+
+
+.titre{
+    border-bottom: 1px solid #115D8A;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0px auto 15px auto;
+    
+}
+
+.main .titre {
+    font-weight: bold;
+}
+
+.titreProfil{
+    width: 93px;
+    margin-top: 15px;
+}
+.titreProjet{
+    width: 160px;
+    
+}
+
+.titreExp{
+    width: 230px;
+}
+
+.titreDiv {
+    width: 93px;
+}
+
+.titreGauche {
+    width: 104px;
+    color: #fff;
+}
+
+
+
+/* --------------------------------- MAIN ---------------------------------- */
+.main {
+    height: 677px;
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.profil p {
+    margin: 0px 10px;
+    line-height: 20px;
+}
+
+
+.ratp{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ratp img { 
+    width : 80px;
+    height: 32px;
+}
+.ratpImg{
+    display: flex;
+    align-items: center;
+}
+
+.okaidi{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 45px;
+}
+
+.okaidi img{
+    width : 80px;
+}
+.oxybul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.oxybul img {
+    width : 80px;
+
+}
+
+.taches {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gridDivers{
+    display: grid;
+    grid-template-columns:20px 100px 20px 100px 20px 100px;
+    grid-template-rows: 40px 40px 40px;
+    font-size: 0.8rem;
+    margin: 0px 10px; 
+}
+
+.gridDivers img {
+    width: 15px;
+    height: 15px;
+}
